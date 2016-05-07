@@ -8,5 +8,7 @@ class Mytest{
 	}
 	
 }
+$obj=new Mytest();
+echo $obj->name;
 
 ?>
