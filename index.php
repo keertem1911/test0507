@@ -6,7 +6,10 @@ class Mytest{
 		$this->name=$name;
 		echo "My test construcy $name";
 	}
-	
+	public function __construct($name){
+		$this->name=$name;
+		echo "My test construcy $this->name \n";
+	}
 	
 }
 $obj=new Mytest();
