@@ -2,10 +2,11 @@
 phpinfo();
 class Mytest{
 	public $name;
-	public function __construct(){
-		$this->name="first";
+	public function __construct($name){
+		$this->name=$name;
 		echo "My test construcy $name";
 	}
+	
 	
 }
 $obj=new Mytest();
