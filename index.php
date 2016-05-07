@@ -1,7 +1,7 @@
 <?php
 phpinfo();
 class Mytest{
-	public $name;
+	public $name1;
 	public function __construct($name){
 		$this->name=$name;
 		echo "My test construcy $name";
